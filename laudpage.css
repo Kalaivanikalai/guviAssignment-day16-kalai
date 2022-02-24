@@ -6,7 +6,8 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 .container{
-    width: 1450px;
+   max-width: 1920px;
+    height: 2928px;
 
 }
 .background{
