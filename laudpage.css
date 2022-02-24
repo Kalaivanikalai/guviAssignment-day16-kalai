@@ -6,8 +6,8 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 }
 .container{
-   max-width: 1920px;
-    height: 2928px;
+  max-width: 1920px;
+
 
 }
 .background{
@@ -62,24 +62,82 @@ h1{
     height: 120px;
     margin: 17px;
     position: relative;
-    width: 262px;
+    width: 235px;
     border: 1px solid #e6e6e6;
   }
 
 
 
 /* media query for responsive device */
+@media only screen and (max-device-width: 1024px) {
+  .bg_white2 {
+    background-color: #fff;
+    height: 800px;
+  }
 
-  @media only screen and (max-width: 320px){
-
-  
-.box {
+  .box {
     background: #fff;
     border-radius: 5px;
     display: inline-block;
-    height: 100px;
-    margin: 12px;
+    height: 120px;
+    margin: 17px;
     position: relative;
-    width: 295px;
-}
+    width: 235px;
+    border: 1px solid #e6e6e6;
   }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .bg_white {
+    background-color: #fff;
+    height: 1150px;
+  }
+  .bg_white2 {
+    background-color: #fff;
+    height: 1022px;
+  }
+  .box {
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    height: 120px;
+    margin: 17px;
+    position: relative;
+    width: 235px;
+    border: 1px solid #e6e6e6;
+  }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px) {
+      .container {
+          height: 2928px;
+          width: 430px;
+      }
+
+      .bg_white {
+        background-color: #fff;
+        height: 1270px;
+      }
+      .bg_white2 {
+        background-color: #fff;
+        height: 1455px;
+    }
+    .bg_black {
+      background-color: #1b1c1d;
+      height: 220px;
+      color: #ffff;
+    }
+    .box {
+        background: #fff;
+        border-radius: 5px;
+        display: inline-block;
+        height: 100px;
+        margin: 12px;
+        position: relative;
+        width: 295px;
+    }
+}
+
+
+
