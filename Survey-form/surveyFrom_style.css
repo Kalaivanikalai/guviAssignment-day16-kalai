@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow-x: hidden;
+    background-color: #0a0a0a !important;
+}
+
+.container {
+    background-color: white;
+    outline: 10px solid white;
+    width: 562px !important;
+    /* height: 562px; */
+    margin: 15px;
+    font-family: sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+}
+
+.fontsizee {
+    font-size: 0.7rem !important;
+}
