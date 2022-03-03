@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow-x: hidden;
+    background-color: #0a0a0a !important;
+}
+
+.container{
+    background-color: #e6e6e6;
+    /* border: 1px solid red; */
+    width: 1024px !important;
+   
+}
+
+.fontcolor{
+	color: #22b0c3;
+}
+.float-end {
+    float: right!important;
+    top: 212px;
+    position: absolute;
+    width: 13%;
+}
+
+.bg-clr{
+	background-color: #19aec2 !important;
+    color:white;
+}
+.verticalline{
+    height: 1065px;
+    position: absolute;
+    left: 50%;
+    margin-left: 2px;
+    top: 25px;
+    border-left-style: dashed;
+    border-left-width: 2px;
+    border-color: #19aec2;
+}
+.customsize2{
+	color:#2b536b !important ;
+}
+.textright{
+    color:#2b536b !important ;
+    text-align: end;
+    letter-spacing: -0.8px;
+    word-spacing: 1px;
+}
+
+.customsize3{
+	color: #6cafb9;
+    font-weight: 500;
+}
+.customsize4{
+    width: 33%;
+}
+.imgsz{
+    width: 100%;
+}
+.customsize5{
+    color:#2b536b !important ;
+	font-size: 40px !important ;
+}
+.customsize6{
+    font-size: 62px !important ;
+    color:#f7c117;
+}
+.customsize7{
+    color: #6cafb9;
+    font-size: 15px;
+}
+
+.orangecolor{
+   color:#f7c117;
+}
+
+.lightblue{
+    color:#19aec2;
+}
+.darkblue{
+    color:#2e5971;
+}
+
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 425px) {
+    .verticalline{
+       display: none;
+    }
+  }
